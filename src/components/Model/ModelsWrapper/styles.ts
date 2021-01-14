@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const OverlaysRoot = styled.div`
-  position: relative;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
