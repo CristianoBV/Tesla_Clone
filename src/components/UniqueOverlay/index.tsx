@@ -1,9 +1,16 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Link } from "react-router-dom";
+import { useTransform } from "framer-motion";
+
+import useWrapperScroll from "../Model/useWrapperScroll";
 
 import { Container, Header, Logo, Burger, Footer } from "./styles";
 
 const UniqueOverlay: React.FC = () => {
+  const { scrollYProgress } = useWrapperScroll();
+
+  const opacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
+
   return (
     <Container>
       <Header>
@@ -11,31 +18,31 @@ const UniqueOverlay: React.FC = () => {
         <Burger />
       </Header>
 
-      <Footer>
+      <Footer style={{ opacity }}>
         <ul>
           <li>
-            <Link href="#">Tesla © 2021</Link>
+            <a href="#">Tesla © 2021</a>
           </li>
           <li>
-            <Link href="#">Privacy &amp; Legal </Link>
+            <a href="#">Privacy &amp; Legal </a>
           </li>
           <li>
-            <Link href="#">Contact</Link>
+            <a href="#">Contact</a>
           </li>
           <li>
-            <Link href="#">Careers</Link>
+            <a href="#">Careers</a>
           </li>
           <li>
-            <Link href="#">Get Newsletter</Link>
+            <a href="#">Get Newsletter</a>
           </li>
           <li>
-            <Link href="#">News</Link>
+            <a href="#">News</a>
           </li>
           <li>
-            <Link href="#">Forums</Link>
+            <a href="#">Forums</a>
           </li>
           <li>
-            <Link href="#">Locations</Link>
+            <a href="#">Locations</a>
           </li>
         </ul>
       </Footer>

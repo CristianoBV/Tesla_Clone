@@ -73,3 +73,8 @@ export const Container = styled.div`
     background-size: cover;
   }
 `;
+
+export const Spacer = styled.div`
+  height: 15vh;
+  background-color: #fff;
+`;
