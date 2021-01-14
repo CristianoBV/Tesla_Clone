@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="TeslaClone" title="#TeslaClone" src="./screen/web.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+ ⚡️ Concluido...
+</h4>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+⚡️ clone site Tesla - Projeto, criação do layout, desafio.
 
-### `yarn start`
+Projeto desenvolvido com Reactjs.
+Ótimo desafio e aprendizado..
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎨 Layout
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O layout da aplicação está disponível no Site Tesla:
 
-### `yarn test`
+<a href=" ">
+  <img alt="heroku" src="https://img.shields.io/badge/Acessar%20Layout%20-Heroku-%2304D361">
+</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Mobile
 
-### `yarn build`
+<p align="center">
+  <img alt="Original.io" title="#cristianoBV" src="./screen/tesla.png" width="300px">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img alt="cristianoBV" title="#cristianoBV" src="./screen/mobile.png" width="300px">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Web
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="cristianoBV" title="#cristianoBV" src="./screen/web.png" width="800px">
+</p>
 
-### `yarn eject`
+## 🛠 Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As seguintes ferramentas foram usadas na construção do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React][reactjs]
+- [Node.js][nodejs]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Como executar o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Front End (https://github.com/CristianoBV/Tesla_Clone/tree/feature)
 
-## Learn More
+### Pré-requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🧭 Rodando a aplicação web (Front End)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/CristianoBV/Tesla_Clone/tree/feature
+
+
+# Vá para a pasta server
+$ cd clone-tesla
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333
+```
+
+## 📝 Licença
+
+Este projeto esta sobe a licença.
+
+Feito com ❤️ por cristiano Borges 👋🏽 [Entre em contato!](https://www.linkedin.com/in/cristianobv/)
+
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/
+[reactjs]: https://reactjs.org
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://github.com/CristianoBV/privacy_policy
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
