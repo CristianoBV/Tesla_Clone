@@ -40,7 +40,6 @@ O layout da aplicação está disponível no Site Tesla:
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React][reactjs]
-- [Node.js][nodejs]
 
 ## 🚀 Como executar o projeto
 
